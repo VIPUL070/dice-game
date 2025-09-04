@@ -110,11 +110,11 @@ function updateTotalScore(turns){
 
 function checkWinner(){
     if(Number(score1.textContent) === 100){
-        winner.textContent = `Winner is Player 1`;
+        winner.textContent = `🏆 Winner is Player 1`;
         winnerContainer.style.visibility = "visible"
     }
     if(Number(score2.textContent) === 100){
-        winner.textContent = `Winner is Player 2`; 
+        winner.textContent = `🏆 Winner is Player 2`; 
         winnerContainer.style.visibility = "visible"
     }
 
